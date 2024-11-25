@@ -8,7 +8,7 @@ const url = `https://api.api-ninjas.com/v1/recipe?query=${foodChoice}`;
 const options = {
 	method: 'GET',
 	headers: {
-		'X-Api-Key': `${apiKey}`,
+		'X-Api-Key': `EXyOyn6Z1ROLqILk1NbYYA==3uQH1TRzZMveYzWa`,
 		'Content-Type': 'application/json'
 	},
 };
