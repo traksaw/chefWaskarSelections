@@ -1,0 +1,197 @@
+/******************************************
+/* Reset Styles
+/*******************************************/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Sawarabi Mincho", serif;
+  color: #ffffff; /* White text for readability */
+  background-color: #003459; /* Dark blue for overall background */
+  line-height: 1.8; /* Increased line height for readability */
+  padding: 0 1rem; /* Padding for smaller devices */
+}
+
+/******************************************
+/* Layout Styles
+/*******************************************/
+
+/* Section Styles */
+.introSection, .foodSection, .ingredientsSection {
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  max-width: 900px;
+  background-color: #00171f; /* Dark navy for sections */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+.introSection {
+  text-align: center;
+  background-color: #007ea7; /* Bright teal for intro section */
+}
+
+.foodSection {
+  text-align: center;
+  background-color: #00a8e8; /* Vibrant blue for food section */
+}
+
+.ingredientsSection {
+  background-color: #003459; /* Dark blue for ingredients */
+}
+
+/******************************************
+/* Typography
+/*******************************************/
+
+h1, h2 {
+  color: #ffffff; /* White text for headings */
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem; /* Increased font size for better readability */
+  color: #ffffff; /* White text for body text */
+  margin-bottom: 1.5rem; /* Added spacing between paragraphs */
+}
+
+#dishIngredients {
+  font-style: italic;
+  color: #f8f991; /* Yellow for emphasis */
+}
+
+#dishInstructions {
+  font-weight: bold;
+  color: #f8f991; /* Yellow for important instructions */
+  line-height: 2; /* Increased line height for step-by-step reading */
+}
+
+/******************************************
+/* Inputs and Buttons
+/*******************************************/
+
+/* Input Field */
+input[type="text"] {
+  width: 80%;
+  max-width: 500px;
+  padding: 0.75rem 1rem;
+  margin: 1rem auto;
+  font-size: 1rem;
+  border: 1px solid #007ea7; /* Teal border */
+  border-radius: 5px;
+  color: #ffffff; /* White text */
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #00a8e8; /* Vibrant blue for focus */
+  box-shadow: 0 0 8px rgba(0, 168, 232, 0.5); /* Glow effect */
+}
+
+/* Button */
+input[type="button"] {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: #ffffff; /* White for text */
+  background-color: #00a8e8; /* Vibrant blue for button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+input[type="button"]:hover {
+  background-color: #007ea7; /* Bright teal on hover */
+  transform: scale(1.05);
+}
+
+input[type="button"]:active {
+  transform: scale(0.95);
+}
+
+/******************************************
+/* Images
+/*******************************************/
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for images */
+}
+
+/******************************************
+/* Media Queries for Specific Devices
+/*******************************************/
+
+
+@media screen and (max-width: 375px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  input[type="text"], input[type="button"] {
+    width: 100%; /* Full width for smaller screens */
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.75rem;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+  input[type="text"], input[type="button"] {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 2.25rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.15rem;
+  }
+}
+
+
+@media screen and (max-width: 1440px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2.25rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+}
