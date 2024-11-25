@@ -2,6 +2,18 @@
 
 Chef Waskar's Recipe Selector is an interactive web app that generates random recipes based on a user-provided ingredient. Powered by the API Ninjas Recipe API, this app is a fun way to discover new dishes and explore culinary creativity.
 
+---
+
+
+<img width="1512" alt="Screenshot 2024-11-24 at 8 07 07 PM" src="https://github.com/user-attachments/assets/21625c24-d999-4ddc-b1fa-8bb6e7c52958">
+
+
+---
+
+Check it out here (https://chefwaskarselections.netlify.app/)
+
+---
+
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
