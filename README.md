@@ -4,8 +4,7 @@ Chef Waskar's Recipe Selector is an interactive web app that generates random re
 
 ---
 
-
-<img width="1512" alt="Screenshot 2024-11-24 at 8 07 07 PM" src="https://github.com/user-attachments/assets/21625c24-d999-4ddc-b1fa-8bb6e7c52958">
+<img width="1511" alt="Screenshot 2024-11-24 at 10 57 42 PM" src="https://github.com/user-attachments/assets/7886534f-bcdd-4f7b-a798-9ddfd4bb541e">
 
 
 ---
